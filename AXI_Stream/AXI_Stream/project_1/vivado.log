@@ -1,0 +1,106 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Oct 13 08:23:38 2022
+# Process ID: 36812
+# Current directory: D:/fpga/AXI_Stream/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent34728 D:\fpga\AXI_Stream\project_1\project_1.xpr
+# Log file: D:/fpga/AXI_Stream/project_1/vivado.log
+# Journal file: D:/fpga/AXI_Stream/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/fpga/AXI_Stream/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:07 . Memory (MB): peak = 1116.281 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/fpga/AXI_Stream/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/vivado/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'D:/fpga/AXI_Stream/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_axi_stream_insert_header' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/fpga/AXI_Stream/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_axi_stream_insert_header_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga/AXI_Stream/project_1/project_1.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga/AXI_Stream/project_1/project_1.srcs/sources_1/new/axi_stream_insert_header.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_stream_insert_header
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga/AXI_Stream/project_1/project_1.srcs/sim_1/new/tb_axi_stream_insert_header.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_axi_stream_insert_header
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga/AXI_Stream/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj tb_axi_stream_insert_header_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/fpga/AXI_Stream/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab -wto c15cc88f17ac4343bed7933501bd1b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_axi_stream_insert_header_behav xil_defaultlib.tb_axi_stream_insert_header xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto c15cc88f17ac4343bed7933501bd1b1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_axi_stream_insert_header_behav xil_defaultlib.tb_axi_stream_insert_header xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_bhv_ver_s...
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_bhv_ver_p...
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_CONV_VER(...
+Compiling module fifo_generator_v13_2_5.fifo_generator_vlog_beh(C_COMMON...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.axi_stream_insert_header_default
+Compiling module xil_defaultlib.tb_axi_stream_insert_header
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_axi_stream_insert_header_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/fpga/AXI_Stream/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/tb_axi_stream_insert_header_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Oct 13 08:25:33 2022...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/fpga/AXI_Stream/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_axi_stream_insert_header_behav -key {Behavioral:sim_1:Functional:tb_axi_stream_insert_header} -tclbatch {tb_axi_stream_insert_header.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source tb_axi_stream_insert_header.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_axi_stream_insert_header_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1116.281 ; gain = 0.000
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_axi_stream_insert_header/axi_stream_insert_header}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 1 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 13 08:26:07 2022...

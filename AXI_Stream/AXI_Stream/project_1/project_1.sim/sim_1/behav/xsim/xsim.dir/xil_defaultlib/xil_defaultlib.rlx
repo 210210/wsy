@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/fpga/AXI_Stream/project_1/project_1.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v,1665562007,verilog,,D:/fpga/AXI_Stream/project_1/project_1.srcs/sources_1/new/axi_stream_insert_header.v,,fifo_generator_0,,,,,,,,
+D:/fpga/AXI_Stream/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/fpga/AXI_Stream/project_1/project_1.srcs/sim_1/new/tb_axi_stream_insert_header.v,1665561925,verilog,,,,tb_axi_stream_insert_header,,,,,,,,
+D:/fpga/AXI_Stream/project_1/project_1.srcs/sources_1/new/axi_stream_insert_header.v,1665561881,verilog,,D:/fpga/AXI_Stream/project_1/project_1.srcs/sim_1/new/tb_axi_stream_insert_header.v,,axi_stream_insert_header,,,,,,,,

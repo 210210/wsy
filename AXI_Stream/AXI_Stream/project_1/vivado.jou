@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Oct 13 08:23:38 2022
+# Process ID: 36812
+# Current directory: D:/fpga/AXI_Stream/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent34728 D:\fpga\AXI_Stream\project_1\project_1.xpr
+# Log file: D:/fpga/AXI_Stream/project_1/vivado.log
+# Journal file: D:/fpga/AXI_Stream/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/fpga/AXI_Stream/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_axi_stream_insert_header.tcl
+current_wave_config {Untitled 1}
+add_wave {{/tb_axi_stream_insert_header/axi_stream_insert_header}} 
+restart
+run 1 us
+close_sim
